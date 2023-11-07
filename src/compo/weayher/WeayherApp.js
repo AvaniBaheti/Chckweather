@@ -9,7 +9,7 @@ import humid_icon from '../asseys/Assets/humidity.png'
 import wind from '../asseys/Assets/wind.png'
 import rains from '../asseys/Assets/rain.png'
 const WeayherApp = () => {
-    let api_key="0552c04e2ac8c789f678a57c887d772d";
+    let api_key="";
     const[ams,seAms] = useState(cloud_icon)
     const search=async()=>{
         const elem=document.getElementsByClassName('ciyyInp')
